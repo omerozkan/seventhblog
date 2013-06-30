@@ -1,0 +1,41 @@
+@charset "utf-8";
+html, body { width:100%; height:100%;}
+html { background:#dcdcdc url(images/error/main_bg.jpg) repeat left top;}
+body { color:#555; font:normal 13px/1.5em "Liberation Sans", Arial, Helvetica, sans-serif; background:url(images/error/center_bg.png) no-repeat center 17px;}
+.main { }
+.clr { clear:both; width:100%; font-size:0px; line-height:0px;}
+p { margin:0; padding:6px 0;}
+a { color:#555; text-decoration:underline;}
+h1, h2, h3 { margin:0;}
+.fl { float:left;}
+.fr { float:right;}
+
+html, body, form, ol, li, ul { margin:0; padding:0;}
+ol, ul, li { list-style:none;}
+input { margin:0; outline:none;}
+a img { border:none;}
+
+.main_resize { margin:0 auto; width:675px; text-align:center;}
+.logo { padding:97px 0 0; height:65px;}
+.logo h1 { padding:10px 0; font-size:30px; line-height:45px; font-weight:normal; color:#9f9f9f;}
+.logo h1 a { text-decoration:none; color:#9f9f9f;}
+.bigtext { padding:12px 0 0; background:url(images/error/oops_bgt.png) no-repeat center top;}
+.bigtext_bg { position:relative; padding:0 24px; height:226px; background:url(images/error/oops_bg.png) repeat-y center top;}
+.bigtext h2 { position:absolute; left:24px; top:-24px; padding:0; width:627px; font-size:70px; line-height:1em; font-weight:normal; color:#e1e1e1; text-transform:uppercase;}
+.bigtext h2 big { display:block; margin-bottom:-30px; font-size:200px; line-height:1em; font-weight:normal;}
+.ribbon { position:absolute; right:-7px; top:-19px;}
+.moretext { padding:0 0 12px; background:url(images/error/text_bgb.png) no-repeat center bottom; text-align:center;}
+.moretext .mt_bg { padding:16px 24px 12px; background:url(images/error/text_bg.png) repeat-y center bottom;}
+.moretext p { color:#c3c3c3;}
+.moretext strong { font-weight:bold; color:#c3c3c3;}
+.menu { padding:12px 0 0; height:40px;}
+.menu ul { display:block; float:left; padding:12px 0 0 237px;}
+.menu ul li { display:block; float:left; padding:0 16px; border-left:1px solid #555;}
+.menu ul li:first-child { border-left:none;}
+.menu ul li a { display:block; float:left; font-size:13px; line-height:1.5em; font-weight:bold; color:#555; text-decoration:none;}
+.menu ul li a:hover { text-decoration:underline;}
+.searchform { padding:12px 0 24px 176px; height:35px;}
+.searchform span { display:block; float:left; padding:8px; width:218px; height:19px; background:url(images/error/search_bg.png) no-repeat left top;}
+.searchform input.editbox_search { padding:0; width:221px; font-size:12px; line-height:19px; color:#808080; background:none; border:none;}
+.searchform input.button_search { float:left;}
+
