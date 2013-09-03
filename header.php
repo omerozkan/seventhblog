@@ -63,7 +63,7 @@
 				<a href="<?php bloginfo('url'); ?>/s=ara" class="js-search">site içi arama</a>
 					
 			</div>
-			<?php get_search_form( $echo ); ?>
+			<?php get_search_form(); ?>
 
 			<div class="clear"></div>
 		</nav>
