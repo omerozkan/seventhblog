@@ -22,7 +22,17 @@
 			$('#searchform').slideToggle();
 		});
 
-
+		$('nav ul li').mouseenter(function() {
+			$(this).addClass('show');
+ 			$(this).find('ul').stop(true, true).slideToggle();
+		  }
+		);
+		
+		$('nav ul li').mouseleave(function(){
+			$(this).removeClass('show');
+			$(this).find('ul').stop(true, true).fadeOut();
+		}
+		);
 
 	})();
 	

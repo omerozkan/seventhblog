@@ -5,7 +5,7 @@
 		<div class="top">
 			<hgroup>
 				<h3>Ömer ÖZKAN</h3>
-				<h2>Jr. Software Developer</h2>
+				<h2>Software Engineer</h2>
 			</hgroup>
 			<div id="info">
 				&copy; 2008 Ömer ÖZKAN. Tüm Hakları Saklıdır. <br>
