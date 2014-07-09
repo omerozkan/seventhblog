@@ -60,24 +60,24 @@ header h1 a
 {
 	display: block;
 	width: 98px;
-	height: 62px;
+	height: 60px;
 	text-indent: -1000em;
 	background-image: url("images/logo.png");
 	
 }
 
-header h1 a:hover
+/*header h1 a:hover
 {
 	background-position: 0 -63px;
-}
+}*/
 
 header h2
 {
-	font-family: 'Cantarell', sans-serif;
 	font-size: 12px;
 	color: #fff;
 	text-shadow: 3px 3px 4px #000;
 	text-align: center;
+	margin-left: 10px;
 }
 
 header ul
@@ -161,16 +161,6 @@ nav ul li.show a {
 	background-repeat: no-repeat;
 	background-color: #003333;
 }
-
-
-
-/*nav ul li ul li a:hover {
-	background-position: center -38px;
-	background-repeat: no-repeat;
-	background-color: #003333;
-  
-}*/
-
 
 nav ul li:first-child a
 {
@@ -770,9 +760,9 @@ footer .top hgroup
 footer hgroup h3
 {
 	text-indent: -1000em;
-	background-image: url("images/footerlogo.png");
+	background-image: url("images/logo.png");
 	width: 98px;
-	height: 62px;
+	height: 60px;
 	margin-top: 20px;
 	margin-left: 20px;
 }
@@ -780,9 +770,11 @@ footer hgroup h3
 footer hgroup h2
 {
 	color: #e3e3e3;
-	font-size: 13px;
-	font-family: 'Cantarell', sans-serif;
-	font-weight: normal;
+	font-size: 12px;
+	font-weight: 700;
+	margin-left: 15px;
+	text-shadow: 3px 3px 4px #000;
+	
 }
 
 footer #info
@@ -793,7 +785,6 @@ footer #info
 	color: #e3e3e3;
 	font-size: 12px;
 	font-weight: bold;
-	font-family: 'Cantarell', sans-serif;
 	line-height: 25px;
 	text-align: center;
 }
@@ -810,7 +801,6 @@ footer #socialmedia
 {
 	float: right;
 	margin-top: 15px;
-	font-family: 'Cantarell', sans-serif;
 	font-size: 12px;
 	color: #e3e3e3;
 	font-weight: bold;	

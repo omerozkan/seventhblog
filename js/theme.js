@@ -31,9 +31,18 @@
 		$('nav ul li').mouseleave(function(){
 			$(this).removeClass('show');
 			$(this).find('ul').stop(true, true).fadeOut();
-		}
+		  }
 		);
-
+		
+		$('h1 a').mouseenter(function() {
+		     $(this).stop(true, true).animate({'background-position-y': '-59px'}, 250);
+		  }
+		);
+		
+		$('h1 a').mouseleave(function() {
+		     $(this).stop(true, true).animate({'background-position-y': '0'}, 250);
+		  }
+		);
 	})();
 	
 
