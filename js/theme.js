@@ -34,6 +34,20 @@
 		  }
 		);
 		
+// 		$('a.comment-reply-link').removeAttr('onclick');
+// 		
+// 		$('a.comment-reply-link').on('click', function(e){
+// 			e.preventDefault();
+// 			var url = $(this).attr('href');
+// 			$.get(url, function(data) {
+// 			
+// 			var data = $(data);
+// 			var form = $('#respond .commentform', data);
+// 			$(this).parent().append();
+// 			
+// 			});
+// 		
+// 		});
 	})();
 	
 
