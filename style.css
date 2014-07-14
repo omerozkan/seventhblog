@@ -3,7 +3,7 @@ Theme Name: SeventhBlog
 Theme URI: http://omerozkan.net
 Author: Ömer ÖZKAN
 Author URI: http://ozkan.net
-Description: omerozkan.net - v7.1
+Description: omerozkan.net - v7.5
 Version: 2.0
 License: GNU General Public License 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -102,8 +102,6 @@ header ul li
 header ul li a
 {
 	display: block;
-	font-family: 'Cantarell', sans-serif;
-
 	letter-spacing: 1px;
 	color: #fff;
 	line-height: 35px;
@@ -1147,10 +1145,15 @@ footer #license span a
     margin-left: 15px;
 }
 #cancel-comment-reply-link {
-    color: #f00;
+    color: #fff;
+    display: block;
+    padding: 2px 10px ;
+    background-color: #A60000;
+    width: 200px;
+    border: 3px solid #333;
 }
 
 #cancel-comment-reply-link:hover {
-    color: #000;
+    background-color: #033;
   
 }
