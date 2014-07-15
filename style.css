@@ -49,6 +49,8 @@ header hgroup
 {
 	float: left;
 }
+
+/*---LOGO--------*/
 header h1
 {
 	display: block;	
@@ -68,7 +70,7 @@ header h1 a
 
 header h1 a:hover
 {
-	background-position: 0 -59px;
+	background-position: 0 -57px;
 }
 
 header h2
