@@ -31,7 +31,6 @@
 						echo ' - '.$loc[0];
 					}
 				 ?>
-				  </div>
 				</div>
 			</article>
 			
