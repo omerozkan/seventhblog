@@ -12,23 +12,9 @@
 				<a href="http://ozkan.info">ozkan.info</a> | <a href="http://omerozkan.net">omerozkan.net</a>
 
 			</div>
-			<div id="socialmedia">
-				<div class="toplink js-scroll"><a href="#top">Yukarı</a></div>
-				<ul>
-					<li><a href="http://plus.ozkan.info" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/gplus.png" class="js-sm" alt="Google Plus Profili"/></a></li>
-					<li><a href="http://www.linkedin.com/in/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/linkedin.png" class="js-sm" alt="Linkedin Profili"/></a></li>
-					<li><a href="http://twitter.com/_omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/twitter.png" class="js-sm"  alt="Twitter Profili"/></a></li>
-					<li><a href="http://friendfeed.com/oozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/friendfeed.png" class="js-sm"  alt="FriendFeed Profili"/></a></li>
-					<li><a href="http://www.facebook.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/facebook.png" class="js-sm"  alt="Facebook Profili"/></a></li>
-					<li><a href="http://feeds.feedburner.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/rss.png" class="js-sm"  alt="RSS Aboneliği"/></a></li>
-				</ul>
-				<div class="clear"></div>
-				<span class="js-socialmedia"></span>
-			</div>
-
+			<div class="toplink js-scroll"><a href="#top">Yukarı</a></div>
+			<div class="clear"></div>
 		</div><!--top-->
- 
-
 	  
 	  	 <div id="designed">
 	  		Designed by <a href="http://omerozkan.net"> Ömer ÖZKAN </a>
@@ -37,5 +23,15 @@
 
 	<?php wp_footer(); ?>
 	<script type="text/javascript" src="<?php echo bloginfo('template_directory')?>/js/theme.js"></script>
+	<div id="socialmedia">
+				<ul>
+					
+					<li><a href="http://twitter.com/omerozkan_" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/twitter.png" alt="Twitter Profili"/></a></li>
+					<li><a href="http://linkedin.com/in/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/linkedin.png"  alt="Linkedin Profili"/></a></li>
+					<li><a href="http://github.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/github.png" alt="Github Profili"/></a></li>
+					<li><a href="http://www.facebook.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/facebook.png" alt="Facebook Profili"/></a></li>
+					<li><a href="http://feeds.feedburner.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/rss.png" class="js-sm"  alt="RSS Aboneliği"/></a></li>
+				</ul>
+			</div>
 </body>
 </html>

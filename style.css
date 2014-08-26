@@ -797,47 +797,21 @@ footer #info a:hover
 {
 	color: #e3e3e3;
 }
-footer #socialmedia
+
+footer .toplink
 {
-	float: right;
-	margin-top: 15px;
-	font-size: 12px;
-	color: #e3e3e3;
-	font-weight: bold;	
-}
-footer #socialmedia .toplink
-{
+	padding-top: 15px;
 	margin-right: 13px;
 	text-align: right;
 }
-footer #socialmedia .toplink a
+footer .toplink a
 {
 	
 	color: #ff6;
 }
-footer #socialmedia .toplink a:hover
+footer .toplink a:hover
 {
 	color: #e3e3e3;
-}
-
-footer #socialmedia ul
-{
-	display: block;
-	margin-top: 15px;
-	list-style-type: none;
-}
-footer #socialmedia ul li
-{
-	float: left;
-	margin-left: 5px;
-}
-
-footer #socialmedia span
-{
-	float: right;
-	display: block;
-	padding-top: 10px;
-	padding-right: 10px;
 }
 
 footer #license
@@ -917,6 +891,31 @@ footer #license span a
 {
 	color: #000;
 
+}
+
+/*--social media--*/
+#socialmedia {
+	position: fixed;
+	top: 50%;
+	margin-top: -115px;
+	right: 0;
+}
+
+#socialmedia ul {
+	list-style-type: none;
+}
+
+#socialmedia ul li a {
+	display: block;
+	background-color: #043736;
+	width: 32px;
+	height: 32px;
+	padding: 5px;
+	border-left: 5px solid #000;
+}
+
+#socialmedia ul li a:hover {
+	background-color: #000;
 }
 
 /*--comments---*/
