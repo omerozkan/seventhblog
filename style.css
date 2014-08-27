@@ -797,23 +797,6 @@ footer #info a:hover
 {
 	color: #e3e3e3;
 }
-
-footer .toplink
-{
-	padding-top: 15px;
-	margin-right: 13px;
-	text-align: right;
-}
-footer .toplink a
-{
-	
-	color: #ff6;
-}
-footer .toplink a:hover
-{
-	color: #e3e3e3;
-}
-
 footer #license
 {
 	text-align: center;
@@ -1156,5 +1139,21 @@ footer #license span a
 
 #cancel-comment-reply-link:hover {
     background-color: #033;
-  
+}
+
+/*JS*/
+.js-scroll-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0;
+    width: 51px;
+    height: 51px;
+    background-image: url("images/scroll-top.png");
+    background-repeat: no-repeat;
+    display: none;
+    text-indent: -1000%;
+}
+
+.js-scroll-top:hover {
+	background-position: 0 -51px;    
 }

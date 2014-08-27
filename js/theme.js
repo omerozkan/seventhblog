@@ -1,16 +1,6 @@
 (function()
 	{
-		$('.js-sm').on('hover', function()
-		{
-			$this = $(this);
-			$('.js-socialmedia').text($this.attr('alt'));
-		});
-
-		$('.js-sm').on('mouseleave', function()
-		{
-			$('.js-socialmedia').text('');
-		});
-
+	
 		$('.js-search').on('click', function(e)
 		{
 			e.preventDefault();
@@ -33,18 +23,23 @@
 			$(this).find('ul').stop(true, true).fadeOut();
 		  }
 		);
+
+		$(document).ready(function() {
+    		var offset = 220;
+    		var duration = 500;
+    		$(window).scroll(function() {
+        		if ($(this).scrollTop() > offset) {
+            		$('.js-scroll-top').fadeIn(duration);
+        		} else {
+            		$('.js-scroll-top').fadeOut(duration);
+        		}
+    });
+    
+    $('.js-scroll-top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
 	})();
 	
-
-$(function() {
-          $(".js-scroll").click(function(e) {
-             	e.preventDefault();
-              $("html,body").stop().animate({ scrollTop: "0" }, 1000);
-          });
-      });
-      $(window).scroll(function() {
-          var uzunluk = $(document).scrollTop();
-          
-          if (uzunluk > 179) $(".js-scroll").fadeIn(500);
-          
-      });
