@@ -76,7 +76,7 @@ header h1 a:hover
 header h2
 {
 	font-size: 12px;
-	color: #fff;
+	color: #e3e3e3;
 	text-shadow: 3px 3px 4px #000;
 	text-align: center;
 	margin-left: 10px;
@@ -105,7 +105,7 @@ header ul li a
 {
 	display: block;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #e3e3e3;
 	line-height: 35px;
 	padding: 0 15px;
 	text-shadow: 3px 3px 8px #666;
@@ -149,7 +149,7 @@ nav ul li a
 {
 	display: block;
 	font-family: 'Cantarell', sans-serif;
-	color: #fff;
+	color: #e3e3e3;
 	line-height: 37px;
 	padding: 0 17px;
 	border-right: 1px solid #1E4949;
@@ -162,7 +162,7 @@ nav ul li.show a {
 	background-color: #003333;
 }
 
-nav ul li:first-child a
+/*nav ul li:first-child a
 {
 	text-indent: -1000em;
 	background-image: url("images/homeicon.png");
@@ -171,7 +171,7 @@ nav ul li:first-child a
 	padding: 0 5px;
 	width: 25px;
 	border-right: none;
-}
+}*/
 
 
 nav ul li ul {

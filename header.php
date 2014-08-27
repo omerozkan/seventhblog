@@ -55,7 +55,7 @@
 
 		<nav>
 			<ul>
-				<li><a href="<?php bloginfo('url'); ?>">anasayfa</a></li>
+				<?php /*<li><a href="<?php bloginfo('url'); ?>">Anasayfa</a></li>*/?>
 				<?php wp_list_categories('title_li'); ?>
 
 			</ul>
