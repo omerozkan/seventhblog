@@ -15,6 +15,7 @@
 		echo " | $site_description";
 	?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_directory') ?>/comment.css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>" />
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo bloginfo('template_directory')?>/images/favicon.ico">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
