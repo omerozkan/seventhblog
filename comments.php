@@ -58,7 +58,7 @@ function seventhblog_comments( $comment, $args, $depth ) {
 		$count = 0;
 		$status = $post->comment_status;
 	?>
-	<a href="#commentform" class="linktoform">Sen de yorumunu gönder</a>
+	<a href="#commentform" class="linktoform js-scroll">Sen de yorumunu gönder</a>
 	<div class="clear"></div>
 	<div id="comments">
 	<ul>

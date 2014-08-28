@@ -10,7 +10,7 @@
 				<?php
 					if($post->comment_status != 'closed' || $comments > 0):
 				?>
-					<div class="comment"><a href="<?php comments_link(); ?>"><?php echo $comments ?></a></div>
+					<div class="comment"><a href="<?php comments_link(); ?>" class="js-scroll"><?php echo $comments ?></a></div>
 					<?php
 						endif;
 					?>
