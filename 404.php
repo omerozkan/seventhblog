@@ -24,7 +24,7 @@ Design by TemplateAccess.com
     </div>
     <div class="bigtext">
       <div class="bigtext_bg">
-        <h2><big>Abooo!</big> Sayfa Bulunamadı</h2>
+        <h2><big>404</big> Sayfa Bulunamadı!</h2>
         <div class="ribbon"><img src="<?php echo bloginfo('template_directory')?>/images/error/ribbon.png" width="137" height="137" alt="404 Error" /></div>
       </div>
     </div>
