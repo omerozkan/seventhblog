@@ -9,7 +9,6 @@
 #comments
 {
 	margin: 0 15px;
-	background-color: #FFFFFF;
 	border: 1px solid #ccc;
   
 }
@@ -24,9 +23,13 @@
   border-bottom: 1px solid #ccc;
 }
 
-#comments .second
+#comments .first
 {
 	background-color: #ffe;
+}
+
+#comments .second {
+	background-color: #fff;
 }
 
 #comments .comment {

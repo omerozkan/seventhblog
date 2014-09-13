@@ -1,7 +1,7 @@
 <?php
 /**
 * @package WordPress
-* @subpackage Default_Theme
+* @subpackage SeventhBlog
 */
 
 // Do not delete these lines
@@ -22,7 +22,7 @@ function seventhblog_comments( $comment, $args, $depth ) {
     $count++;
     ?>
     <li>
-    <div class="comment <?php echo $count % 2 == 0? '':'second'; ?>" id="comment-<?php echo $comment->comment_ID?>"> 
+    <div class="comment <?php echo $count % 2 == 0? 'second':'first'; ?>" id="comment-<?php echo $comment->comment_ID?>"> 
 		<div class="left">
 		      <?php echo get_avatar(get_comment_author_email(), 60); ?>
 		      <time><?php comment_date('d/m/Y'); ?></time>
@@ -72,15 +72,16 @@ function seventhblog_comments( $comment, $args, $depth ) {
 	</div><!--comments-->
 	
 	<?php else : // this is displayed if there are no comments so far ?>
+	<div id="comments">
+		<?php if (comments_open()) : ?>
 
-	<?php if (comments_open()) : ?>
+			<p class="nocomments">Bu yazıya yorum yapılmamış.</p>
+		<?php else : // comments are closed ?>
 
-		<p class="nocomments">Bu yazıya yorum yapılmamış.</p>
-	<?php else : // comments are closed ?>
+			<p class="nocomments">Bu yazı yorumlara kapalıdır.</p>
 
-		<p class="nocomments">Bu yazı yorumlara kapalıdır.</p>
-
-	<?php endif; ?>
+		<?php endif; ?>
+	</div>
 <?php endif; ?> 
 
 
