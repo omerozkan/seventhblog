@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+	<?php get_header(); ?>
 <section id="content">
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<article>
@@ -10,7 +10,7 @@
 				<?php
 					if($post->comment_status != 'closed' || $comments > 0):
 				?>
-					<div class="comment"><a href="<?php comments_link(); ?>"><?php echo $comments ?></a></div>
+					<div class="comment"><a href="<?php comments_link(); ?>" class="js-scroll"><?php echo $comments ?></a></div>
 					<?php
 						endif;
 					?>
@@ -31,7 +31,6 @@
 						echo ' - '.$loc[0];
 					}
 				 ?>
-				
 				</div>
 			</article>
 			

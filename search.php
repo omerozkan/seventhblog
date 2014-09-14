@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+	<?php get_header(); ?>
 <section id="content">
 	<?php
 	global $wp_query;
