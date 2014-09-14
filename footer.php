@@ -13,8 +13,8 @@
 
 			</div>
 			<div id="designed">
-	  		This theme has developed by <a href="http://omerozkan.net"> Ömer ÖZKAN </a> <br>
-	  		and free released under the <a href="http://omerozkan.net">GNU/GPL 3.0</a> license.
+	  		This <a href="https://github.com/omerozkan/seventhblog" target="_blank">theme</a> has developed by <a href="http://omerozkan.net"> Ömer ÖZKAN </a> <br>
+	  		and free released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU/GPL 3.0</a> license.
 	 	 </div>	  
 			<div class="clear"></div>
 		</div><!--top-->
