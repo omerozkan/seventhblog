@@ -805,35 +805,33 @@ footer #license
 	color: #e3e3e3;
 	width: 960px;
 	margin: 0 auto;
+	height: 43px;
+	line-height: 43px;
 }
 
 footer #license img
 {
+	float: left;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	float: left;
 	margin-left: 45px;
 }
 
-footer #license span
-{
-	line-height: 43px;
-	display: block;
-}
-
-footer #license span a
+footer #license a
 {
 	color: #ff6;
 }
 
 #designed
 {
-	width: 960px;
-	margin: 0 auto;
-	text-align: right;
-	line-height: 45px;
 	font-family: 'Ubuntu', sans-serif;
 	color: #e3e3e3;
+	font-size: 11px;
+	margin-top: 50px;
+	margin-right: 75px;
+	float: right;
+	text-align: center;
+	line-height: 15px;
 }
 
 #designed a

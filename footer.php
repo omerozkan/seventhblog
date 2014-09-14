@@ -12,12 +12,26 @@
 				<a href="http://ozkan.info">ozkan.info</a> | <a href="http://omerozkan.net">omerozkan.net</a>
 
 			</div>
+			<div id="designed">
+	  		This theme has developed by <a href="http://omerozkan.net"> Ömer ÖZKAN </a> <br>
+	  		and free released under the <a href="http://omerozkan.net">GNU/GPL 3.0</a> license.
+	 	 </div>	  
 			<div class="clear"></div>
 		</div><!--top-->
-	  
-	  	 <div id="designed">
-	  		Designed by <a href="http://omerozkan.net"> Ömer ÖZKAN </a>
-	 	 </div>	  
+	  	
+	  	<div id="license">
+	  		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img 
+alt="Creative Commons License" style="border-width:0" 
+src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><span 
+xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" 
+property="dct:title" rel="dct:type">Ömer Özkan Blog</span> by <a 
+xmlns:cc="http://creativecommons.org/ns#" href="http://omerozkan.net" 
+property="cc:attributionName" rel="cc:attributionURL">Ömer Özkan</a> is licensed 
+under a <a rel="license" 
+href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons 
+Attribution-ShareAlike 4.0 International License</a>.
+	  </div>
+	  	
 	</footer>
 
 	<?php wp_footer(); ?>
