@@ -6,18 +6,19 @@
 	 $search_query = get_search_query();
 	?>
 			<article>
-				<div class="heading"><h2>Arama Sonuçları</h2>
-					
+				<div class="heading">
+					<h2><?php _e('Search Results', 'seventhblog') ?></h2>
 				</div><!--heading-->
 				
 				
 				<div class="articlecontent">
 				<p>
 				<form action="" method="get">
-					<input type="text" name="s" value="<?php echo $search_query ?>"/> <button type="submit" class="submit">Ara</button>
+					<input type="text" name="s" value="<?php echo $search_query ?>"/> 
+					<button type="submit" class="submit"><?php _e('Search', 'seventhblog') ?></button>
 				</form>
 				</p>
-				<?php //form here ?>
+				
 				<ul>
 				
 				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -28,27 +29,19 @@
 				
 				</ul>
 				<p></p>
-				<p>Toplam <?php echo $total_results ?> sonuç bulundu.</p>
-					<?php else : ?>
-					<p>Aradığınız <strong><?php echo $search_query ?></strong> anahtar kelimesi ile ilgili sonuç bulunamamıştır. Lütfen tekrar deneyin.</p>
-					<?php endif; ?>
-				<div class="clear"></div>
+				<p><?php printf(__('%s results found.', 'seventhblog'), $total_results) ?></p>
+				<?php else : ?>
+
+					<p><?php printf(__('No post found for %s', 'seventhblog'), '<strong>'.$search_query.'</strong>')?> </p>
+				<?php endif; ?>
+				<div class="clear"></div>	
 				
+			</div>
 				
-				</div>
-				
 			
-			</article>
-			
-		
-			
-			<!-- edit this ok? -->
-			
-		
-				</p>
-			
+		</article>
 		
 
-		</section>
+	</section>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -8,7 +8,7 @@
 				<h2>Software Engineer</h2>
 			</hgroup>
 			<div id="info">
-				&copy; 2008 Ömer ÖZKAN. Tüm Hakları Saklıdır. <br>
+				&copy; 2008 Ömer ÖZKAN. <?php _e('All rights reserved', 'seventhblog') ?>. <br>
 				<a href="http://ozkan.info">ozkan.info</a> | <a href="http://omerozkan.net">omerozkan.net</a>
 
 			</div>
@@ -45,6 +45,6 @@ Attribution-ShareAlike 4.0 International License</a>.
 					<li><a href="http://feeds.feedburner.com/omerozkan" target="_blank"><img src="<?php echo bloginfo('template_directory')?>/images/social/rss.png" class="js-sm"  alt="RSS Aboneliği"/></a></li>
 				</ul>
 			</div>
-	<a href="#" class="js-scroll-top">Yukarı</a>
+	<a href="#" class="js-scroll-top"><?php _e('Top', 'seventhblog') ?></a>
 </body>
 </html>

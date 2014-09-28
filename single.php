@@ -18,12 +18,12 @@
 
 				
 				<div class="articlecontent">
-				<?php the_content('Devamı &#8250;'); ?>
+				<?php the_content(__('More', 'seventhblog').' &#8250;'); ?>
 				
 				<div class="clear"></div>
 				</div>
 				
-				<div class="info"><?php the_date('d F Y, l')?>
+				<div class="info"><?php the_date(get_option('date_format').', l')?>
 				
 				<?php $loc = get_post_custom_values('location');
 					if($loc[0] != '')
@@ -42,7 +42,7 @@
 			<!-- edit this ok? -->
 			
 			<?php else : ?>
-				</p>I'm not sure what you're looking for. 
+				<p>I'm not sure what you're looking for. </p>
 			<?php endif; ?>
 		
 
