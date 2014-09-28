@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SeventhBlog\n"
+"POT-Creation-Date: 2014-09-28 23:04+0200\n"
+"PO-Revision-Date: 2014-09-28 23:10+0200\n"
+"Last-Translator: Ömer Özkan <omer@ozkan.info>\n"
+"Language-Team: Sifir Bir <sifirbir@sifirbir.org>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:55
+msgid "Comments"
+msgstr "Comments"
+
+#: ../comments.php:61
+msgid "Leave a reply"
+msgstr "Leave a reply"
+
+#: ../comments.php:78
+msgid "There is no comment for this post."
+msgstr "There is no comment for this post."
+
+#: ../comments.php:81
+msgid "Comments are closed for this post!"
+msgstr "Comments are closed for this post!"
+
+#: ../comments.php:92
+msgid "Leave a reply!"
+msgstr "Leave a reply!"
+
+#: ../comments.php:92
+#, php-format
+msgid "Leave a reply  -> %s !"
+msgstr "Leave a reply  -> %s !"
+
+# before login link
+#: ../comments.php:99
+msgid "You have to"
+msgstr "You have to"
+
+# login link text
+#: ../comments.php:101
+msgid "login"
+msgstr "login"
+
+# after login link
+#: ../comments.php:102
+msgid "first to leave a reply"
+msgstr "first to leave a reply"
+
+#: ../comments.php:110
+msgid "Username"
+msgstr "Username"
+
+#: ../comments.php:110
+msgid "Logout"
+msgstr "Logout"
+
+#: ../comments.php:115
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:120
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../comments.php:125
+msgid "Website"
+msgstr "Website"
+
+#: ../comments.php:131
+msgid "Message"
+msgstr "Message"
+
+#: ../comments.php:134
+msgid "Required fields"
+msgstr "Required fields"
+
+#: ../comments.php:135
+msgid "Your email will remain confidential"
+msgstr "Your email will remain confidential"
+
+#: ../comments.php:136
+msgid "Send"
+msgstr "Send"
+
+#: ../functions.php:12
+msgid "Main Sidebar"
+msgstr "Main Sidebar"
+
+#: ../search.php:10
+msgid "Search Results"
+msgstr "Search Results"
+
+#: ../search.php:18 ../searchform.php:5
+msgid "Search"
+msgstr "Search"
+
+#: ../search.php:32
+#, php-format
+msgid "%s results found."
+msgstr "%s results found."
+
+#: ../search.php:35
+#, php-format
+msgid "No post found for %s"
+msgstr "No post found for %s"
+
+#: ../single.php:21 ../index.php:25 ../page.php:11
+msgid "More"
+msgstr "More"
+
+#: ../searchform.php:3
+msgid "Search Box"
+msgstr "Search Box"
+
+#: ../searchform.php:4
+msgid "type something"
+msgstr "type something"
+
+#: ../searchform.php:7
+msgid "Close"
+msgstr "Close"
+
+#: ../index.php:32
+msgid "Prev"
+msgstr "Prev"
+
+#: ../index.php:34
+msgid "Next"
+msgstr "Next"
+
+#: ../404.php:11 ../404.php:27
+msgid "Not Found"
+msgstr "Not Found"
+
+#: ../404.php:33
+msgid "The page has not found. Please go to home page and try again!"
+msgstr "The page has not found. Please go to home page and try again!"
+
+#: ../404.php:38
+msgid "Home Page"
+msgstr "Home Page"
+
+#: ../footer.php:11
+msgid "All rights reserved"
+msgstr "All rights reserved"
+
+#: ../footer.php:48
+msgid "Top"
+msgstr "Top"
+
+#: ../header.php:51
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ../header.php:64
+msgid "search"
+msgstr "search"

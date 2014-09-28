@@ -8,7 +8,7 @@
 
 				
 				<div class="articlecontent">
-				<?php the_content('Devamı &#8250;'); ?>
+				<?php the_content(__('More', 'seventhblog').' &#8250;'); ?>
 				
 				<div class="clear"></div>
 				</div>
@@ -21,7 +21,7 @@
 			<!-- edit this ok? -->
 			
 			<?php else : ?>
-				</p>
+				<p>I'm not sure what you're looking for. </p>
 			<?php endif; ?>
 		
 

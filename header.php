@@ -48,7 +48,7 @@
 					<h2><?php bloginfo('description'); ?></h2>
 				</hgroup>
 				<ul>
-					<li><a href="<?php bloginfo('url'); ?>">Anasayfa</a></li>
+					<li><a href="<?php bloginfo('url'); ?>"><?php _e('Homepage', 'seventhblog') ?></a></li>
 					<?php wp_list_pages('title_li'); ?>
 				</ul>
 				<div class="clear"></div>
@@ -61,7 +61,7 @@
 
 				</ul>
 				<div id="search">
-					<a href="<?php bloginfo('url'); ?>/?s=ara" class="js-search">site içi arama</a>
+					<a href="<?php bloginfo('url'); ?>/?s=" class="js-search"><?php _e('search', 'seventhblog') ?></a>
 					
 				</div>
 				<?php get_search_form(); ?>
