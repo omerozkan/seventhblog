@@ -38,7 +38,7 @@ function seventhblog_comments( $comment, $args, $depth ) {
 		<div class="clear"></div>
 		 <div class="reply">
             <?php comment_reply_link( array_merge( $args, array( 
-                'reply_text' => 'Yanıtla',
+                'reply_text' => __('Reply', 'seventhblog'),
                 /*'after' => ' <span>&darr;</span>',*/ 
                 'depth' => $depth,
                 'max_depth' => $args['max_depth'] 

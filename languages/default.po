@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SeventhBlog\n"
-"POT-Creation-Date: 2014-09-28 23:04+0200\n"
-"PO-Revision-Date: 2014-09-28 23:09+0200\n"
+"POT-Creation-Date: 2014-09-28 23:54+0200\n"
+"PO-Revision-Date: 2014-09-28 23:54+0200\n"
 "Last-Translator: Ömer Özkan <omer@ozkan.info>\n"
 "Language-Team: Sifir Bir <sifirbir@sifirbir.org>\n"
 "Language: English\n"
@@ -14,6 +14,10 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:41
+msgid "Reply"
+msgstr "Reply"
 
 #: ../comments.php:55
 msgid "Comments"
