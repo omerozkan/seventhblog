@@ -132,8 +132,7 @@
 {
 	color:red;
 	font-size:15px;
-	margin-bottom:20px;
-	margin-left:20px;
+	margin: 12px 0 20px 20px;
 }
 
 #comments .comment .reply

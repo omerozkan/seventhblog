@@ -32,7 +32,7 @@ function seventhblog_comments( $comment, $args, $depth ) {
 		      
 		      <div class="clear"></div>
 		      <div class="comment-content">
-			  <?php comment_text(); ?>
+			  	<?php comment_text(); ?>
 		      </div>
 		</div>
 		<div class="clear"></div>
