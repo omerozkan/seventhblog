@@ -28,7 +28,7 @@ function seventhblog_comments( $comment, $args, $depth ) {
 		      <time><?php comment_date('d/m/Y'); ?></time>
 		</div>
 		<div class="right">
-		      <h3><?php comment_author_link()?></h3>
+		      <h3><a href="<?php comment_author_url()?>" target="_blank"><?php comment_author()?></a></h3>
 		      
 		      <div class="clear"></div>
 		      <div class="comment-content">
