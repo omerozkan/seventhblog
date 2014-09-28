@@ -61,7 +61,7 @@
 
 				</ul>
 				<div id="search">
-					<a href="<?php bloginfo('url'); ?>/s=ara" class="js-search">site içi arama</a>
+					<a href="<?php bloginfo('url'); ?>/?s=ara" class="js-search">site içi arama</a>
 					
 				</div>
 				<?php get_search_form(); ?>
